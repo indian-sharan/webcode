@@ -402,12 +402,12 @@ a {
     --search-text: #010718;
 }
 
-body{
+.wrapper body{
     height: 100vh;
     background-color: var(--body-color);
 }
 
-body.dark{
+.wrapper body.dark{
     --body-color: #18191A;
     --nav-color: #242526;
     --side-nav: #242526;
@@ -415,7 +415,7 @@ body.dark{
     --search-bar: #242526;
 }
 
-nav{
+.wrapper nav{
     position: fixed;
     top: 0;
     left: 0;
@@ -425,12 +425,12 @@ nav{
     z-index: 100;
 }
 
-body.dark nav{
+.wrapper body.dark nav{
     border: 1px solid #393838;
 
 }
 
-nav .nav-bar{
+.wrapper nav .nav-bar{
     position: relative;
     height: 100%;
     max-width: 1000px;
@@ -443,7 +443,7 @@ nav .nav-bar{
     justify-content: space-between;
 }
 
-nav .nav-bar .sidebarOpen{
+.wrapper nav .nav-bar .sidebarOpen{
     color: var(--text-color);
     font-size: 25px;
     padding: 5px;
@@ -451,28 +451,28 @@ nav .nav-bar .sidebarOpen{
     display: none;
 }
 
-nav .nav-bar .logo a{
+.wrapper nav .nav-bar .logo a{
     font-size: 25px;
     font-weight: 500;
     color: var(--text-color);
     text-decoration: none;
 }
 
-.menu .logo-toggle{
+.wrapper .menu .logo-toggle{
     display: none;
 }
 
-.nav-bar .nav-links{
+.wrapper .nav-bar .nav-links{
     display: flex;
     align-items: center;
 }
 
-.nav-bar .nav-links li{
+.wrapper .nav-bar .nav-links li{
     margin: 0 5px;
     list-style: none;
 }
 
-.nav-links li a{
+.wrapper .nav-links li a{
     position: relative;
     font-size: 17px;
     font-weight: 400;
@@ -481,7 +481,7 @@ nav .nav-bar .logo a{
     padding: 10px;
 }
 
-.nav-links li a::before{
+.wrapper .nav-links li a::before{
     content: '';
     position: absolute;
     left: 50%;
@@ -495,16 +495,16 @@ nav .nav-bar .logo a{
     transition: all 0.3s ease;
 }
 
-.nav-links li:hover a::before{
+.wrapper .nav-links li:hover a::before{
     opacity: 1;
 }
 
-.nav-bar .darkLight-searchBox{
+.wrapper .nav-bar .darkLight-searchBox{
     display: flex;
     align-items: center;
 }
 
-.darkLight-searchBox .dark-light,
+.wrapper .darkLight-searchBox .dark-light,
 .darkLight-searchBox .searchToggle{
     height: 40px;
     width: 40px;
@@ -514,8 +514,8 @@ nav .nav-bar .logo a{
     margin: 0 5px;
 }
 
-.dark-light i,
-.searchToggle i{
+.wrapper .dark-light i,
+.wrapper .searchToggle i{
     position: absolute;
     color: var(--text-color);
     font-size: 22px;
@@ -523,41 +523,41 @@ nav .nav-bar .logo a{
     transition: all 0.3s ease;
 }
 
-.dark-light i.sun{
+.wrapper .dark-light i.sun{
     opacity: 0;
     pointer-events: none;
 }
 
-.dark-light.active i.sun{
+.wrapper .dark-light.active i.sun{
     opacity: 1;
     pointer-events: auto;
 }
 
-.dark-light.active i.moon{
+.wrapper .dark-light.active i.moon{
     opacity: 0;
     pointer-events: none;
 }
 
-.searchToggle i.cancel{
+.wrapper .searchToggle i.cancel{
     opacity: 0;
     pointer-events: none;
 }
 
-.searchToggle.active i.cancel{
+.wrapper .searchToggle.active i.cancel{
     opacity: 1;
     pointer-events: auto;
 }
 
-.searchToggle.active i.search{
+.wrapper .searchToggle.active i.search{
     opacity: 0;
     pointer-events: none;
 }
 
-.searchBox{
+.wrapper .searchBox{
     position: relative;
 }
 
-.searchBox .search-field{
+.wrapper .searchBox .search-field{
     position: absolute;
     bottom: -85px;
     right: 5px;
@@ -574,13 +574,13 @@ nav .nav-bar .logo a{
     transition: all 0.3s ease;
 }
 
-.searchToggle.active ~ .search-field{
+.wrapper .searchToggle.active ~ .search-field{
     bottom: -74px;
     opacity: 1;
     pointer-events: auto;
 }
 
-.search-field::before{
+.wrapper .search-field::before{
     content: '';
     position: absolute;
     right: 14px;
@@ -592,7 +592,7 @@ nav .nav-bar .logo a{
     z-index: -1;
 }
 
-.search-field input{
+.wrapper .search-field input{
     height: 100%;
     width: 100%;
     padding: 0 45px 0 15px;
@@ -605,11 +605,11 @@ nav .nav-bar .logo a{
     background-color: var(--search-bar);
 }
 
-body.dark .search-field input{
+.wrapper body.dark .search-field input{
     color: var(--text-color);
 }
 
-.search-field i{
+.wrapper .search-field i{
     position: absolute;
     color: var(--nav-color);
     right: 15px;
@@ -617,7 +617,7 @@ body.dark .search-field input{
     cursor: pointer;
 }
 
-body.dark .search-field i{
+.wrapper body.dark .search-field i{
     color: var(--text-color);
 }
 
@@ -674,4 +674,25 @@ body.dark .search-field i{
 .wrapper{
   display: flex;
   position: relative;
+}
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 200px;
+}
+
+.wrapper .main_content .header{
+  padding: 20px;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
 }
