@@ -1,4 +1,8 @@
-# The Cayman theme
+## eLearningWeb is a website only for educational purposes. Some contents like Website/ logo design rights are reserved.
+
+
+
+**Theme used: Cayman is a Jekyll theme**.
 
 [![.github/workflows/ci.yaml](https://github.com/pages-themes/cayman/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/cayman/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-cayman.svg)](https://badge.fury.io/rb/jekyll-theme-cayman)
 
