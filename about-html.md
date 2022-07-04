@@ -7,6 +7,11 @@ description: This is just another page
 ## What is HTML?
 The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.
 
+**Tag is used**
+```html
+<tagname> contents </tagname>
+```
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -18,9 +23,4 @@ The HyperText Markup Language or HTML is the standard markup language for docume
 <p>My first paragraph.</p>
 </body>
 </html>
-```
-
-**Tag is used**
-```html
-<tagname> contents </tagname>
 ```
