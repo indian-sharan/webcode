@@ -27,7 +27,7 @@ The HyperText Markup Language or HTML is the standard markup language for docume
 ```
 Here
 
-```code
+```html
  * <!DOCTYPE html> defines this document is an HTML5 document.
  * <html> tag refers root element of an HTML page.
  * <head> tag contains meta elements.
