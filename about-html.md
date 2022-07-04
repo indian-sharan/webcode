@@ -19,3 +19,8 @@ The HyperText Markup Language or HTML is the standard markup language for docume
 </body>
 </html>
 ```
+
+**Tag is used**
+```html
+<tagname> contents </tagname>
+```
