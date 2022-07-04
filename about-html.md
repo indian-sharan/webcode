@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Another page
-description: This is just another page
+title: About html
 ---
 
 ### Introduction to HTML?
@@ -33,5 +32,5 @@ Here:
  * <body> tag contains the visible contents of the website such as heading, paragraph, images, hyperlinks.
  * <h1> is the heading tag. Similarly <h2>, <h3>, <h4>, <h5> and <h6>.
  * <p> is a paragraph tag.
-    
+
 ```
