@@ -7,7 +7,7 @@ description: This is just another page
 ## What is HTML?
 The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.
 
-```code HTML ```
+```HTML
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,5 +20,4 @@ The HyperText Markup Language or HTML is the standard markup language for docume
 
 </body>
 </html>
-
 ```
