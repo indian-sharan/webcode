@@ -14,10 +14,8 @@ The HyperText Markup Language or HTML is the standard markup language for docume
 <title>Page Title</title>
 </head>
 <body>
-
 <h1>My First Heading</h1>
 <p>My first paragraph.</p>
-
 </body>
 </html>
 ```
