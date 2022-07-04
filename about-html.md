@@ -26,6 +26,7 @@ The HyperText Markup Language or HTML is the standard markup language for docume
 </html>
 ```
 Here
+```html
  * <!DOCTYPE html> defines this document is an HTML5 document.
  * <html> tag refers root element of an HTML page.
  * <head> tag contains meta elements.
@@ -33,3 +34,4 @@ Here
  * <body> tag contains the visible contents of the website such as heading, paragraph, images, hyperlinks.
  * <h1> is the heading tag. Similarly <h2>, <h3>, <h4>, <h5> and <h6>.
  <p> is a paragraph tag.
+```
